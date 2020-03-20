@@ -19,9 +19,16 @@ function repeatTestIsPalindrome() {
     console.log(isPalindrome("ressasser")); // => true
 }
 
+function repeatTestchange() {
+    console.log(swapCase("HELLO")); // => hello
+    console.log(swapCase("bye")); // => BYE
+    console.log(swapCase("GooD NighT")); // => gOOd nIGHt
+}
+
 function main() {
     repeatTest();
     repeatTestTruncate();
     repeatTestIsPalindrome();
+    repeatTestchange();
 }
 main();
