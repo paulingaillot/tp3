@@ -9,6 +9,7 @@ function repeat(s, n) {
 
 function truncate(s, n) {
 
+    if (s.length <= n) return s;
     s = s.substring(0, n - 3) + "...";
     return s;
 
