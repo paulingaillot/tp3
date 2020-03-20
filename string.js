@@ -16,4 +16,14 @@ function truncate(s, n) {
 
 function isPalindrome(s) {
 
+    let s1 = s.split('').reverse().join('');
+    if (s == s1) return true;
+    else return false;
+
+}
+
+function swapCase(s) {
+
+    for (let i = 0;)
+
 }

@@ -12,8 +12,16 @@ function repeatTestTruncate() {
     console.log(truncate("truncated text", 10)); // => truncat...
 }
 
+function repeatTestIsPalindrome() {
+    console.log(isPalindrome("bonjour")); // => false
+    console.log(isPalindrome("toto")); // => false
+    console.log(isPalindrome("kayak")); // => true
+    console.log(isPalindrome("ressasser")); // => true
+}
+
 function main() {
     repeatTest();
     repeatTestTruncate();
+    repeatTestIsPalindrome();
 }
 main();
