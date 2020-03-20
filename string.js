@@ -1,14 +1,19 @@
 function repeat(s, n) {
 
-    for (let i = 0; i < n; i++) {
-        s = s + s;
+    let sb = s;
+    for (let i = 1; i < n; i++) {
+        s = s + sb;
     }
     return s;
 }
 
-function main() {
+function truncate(s, n) {
 
-    console.log(repeat("test", 2));
+    s = s.substring(0, n - 3) + "...";
+    return s;
 
 }
-main();
+
+function isPalindrome(s) {
+
+}
