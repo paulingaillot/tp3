@@ -1,14 +1,16 @@
 function repeat(s, n) {
 
-    for (let i = 0; i < n; i++) {
-        s = s + s;
+    let sb = s;
+    for (let i = 1; i < n; i++) {
+        s = s + sb;
     }
     return s;
 }
 
+
+
+
 function main() {
-
-    console.log(repeat("test", 2));
-
+    console.log(repeat("foo", 4));
 }
 main();
