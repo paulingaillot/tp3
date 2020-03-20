@@ -24,11 +24,3 @@ function repeatTestchange() {
     console.log(swapCase("bye")); // => BYE
     console.log(swapCase("GooD NighT")); // => gOOd nIGHt
 }
-
-function main() {
-    repeatTest();
-    repeatTestTruncate();
-    repeatTestIsPalindrome();
-    repeatTestchange();
-}
-main();
